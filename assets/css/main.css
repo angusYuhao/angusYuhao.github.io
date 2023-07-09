@@ -169,6 +169,13 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+		a.title {
+			font-size: 1.25em;
+			color: var(--white);
+			background: transparent;
+			transition: background 0.1s ease-in-out;
+		}
+
 	strong, b {
 		font-weight: 400;
 	}
