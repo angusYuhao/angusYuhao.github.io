@@ -171,9 +171,15 @@ input, select, textarea {
 
 		a.title {
 			font-size: 1.25em;
+			padding: 10px;
+			border-radius: 5px;
 			color: var(--white);
 			background: transparent;
 			transition: background 0.1s ease-in-out;
+		}
+
+		a.title:hover {
+			background: #d0d0d0
 		}
 
 	strong, b {
