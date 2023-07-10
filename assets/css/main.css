@@ -379,7 +379,7 @@ input, select, textarea {
 		width: 60px;
 		border-radius: 10px;
 		margin-right: 16px;
-		padding: 17px;
+		padding: 10px;
 		transition: background-color 0.15s ease-in-out;
 	}
 
@@ -3129,6 +3129,7 @@ input, select, textarea {
 			.spotlight .image img {
 				display: block;
 				border-radius: 100%;
+				border-color: #a0a0a0;
 				width: 16em;
 			}
 
