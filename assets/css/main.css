@@ -210,6 +210,11 @@ input, select, textarea {
 			text-align: justify;
 		}
 
+		p.project_description {
+			color: #a0a0a0;
+			line-height: 1.2em;
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
@@ -370,16 +375,28 @@ input, select, textarea {
 	}
 
 	.experience_icon img {
-		height: 60px;
-		width: 60px;
+		height: 80px;
+		width: 80px;
 		border-radius: 10px;
 		margin-right: 16px;
-		padding: 10px;
+		padding: 17px;
 		transition: background-color 0.15s ease-in-out;
 	}
 
 	.experience_icon img.amd {
 		background-color: rgba(175, 175, 175, 0.38);
+	}
+
+	.experience_icon img.uoft {
+		background-color: rgba(42, 68, 171, 0.38);
+	}
+
+	.experience_icon img.roc {
+		background-color: rgba(244, 244, 244, 0.38);
+	}
+
+	.experience_content {
+		vertical-align: top;
 	}
 
 	.experience_title_line {
@@ -391,7 +408,7 @@ input, select, textarea {
 	.experience_title {
 		color: white;
 		text-decoration: none;
-		font-size: 16px;
+		font-size: 1.2em;
 		font-weight: 700;
 		text-align: left;
 	}
@@ -399,7 +416,7 @@ input, select, textarea {
 	.experience_date {
 		display: inline-block;
 		font-weight: 700;
-		font-size: 12px;
+		font-size: 0.7em;
 		color: #a0a0a0;
 		border-radius: 4px;
 		padding: 6px;
