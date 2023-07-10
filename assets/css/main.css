@@ -365,6 +365,10 @@ input, select, textarea {
 		align-self: flex-start;
 	}
 
+	.experience_icon a {
+		border-bottom: none;
+	}
+
 	.experience_icon img {
 		height: 60px;
 		width: 60px;
@@ -375,7 +379,7 @@ input, select, textarea {
 	}
 
 	.experience_icon img.amd {
-		background-color: rgba(144, 144, 144, 0.38);
+		background-color: rgba(175, 175, 175, 0.38);
 	}
 
 	.experience_title_line {
@@ -394,12 +398,10 @@ input, select, textarea {
 
 	.experience_date {
 		display: inline-block;
-		/* background: #252525; */
 		font-weight: 700;
 		font-size: 12px;
 		color: #a0a0a0;
 		border-radius: 4px;
-		/* margin: 0 4px; */
 		padding: 6px;
 		padding-bottom: 4px;
 		line-height: 0.9em;
