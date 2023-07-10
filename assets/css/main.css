@@ -365,10 +365,6 @@ input, select, textarea {
 		align-items: center;
 	}
 
-	.experience_row .last_row {
-		margin-bottom: 1.5em;
-	}
-
 	.experience_icon {
 		align-self: flex-start;
 	}
@@ -2375,6 +2371,10 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.icon.free:before {
+			font-family: 'Font Awesome 5 Free';
+		}
+
 		.icon.major {
 			border: solid 1px;
 			display: inline-block;
@@ -3810,9 +3810,9 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 3em 5em 2em 5em ;
 		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		margin: 0 0 0 -2em;
 	}
 
 		#footer > * {
