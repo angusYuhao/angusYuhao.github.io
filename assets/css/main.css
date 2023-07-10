@@ -237,6 +237,7 @@ input, select, textarea {
 	}
 
 	h3 {
+		display: flex;
 		font-size: 1.25em;
 	}
 
