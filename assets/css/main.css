@@ -365,6 +365,10 @@ input, select, textarea {
 		align-items: center;
 	}
 
+	.experience_row .last_row {
+		margin-bottom: 1.5em;
+	}
+
 	.experience_icon {
 		align-self: flex-start;
 	}
@@ -426,6 +430,7 @@ input, select, textarea {
 		font-size: 1.2em;
 		font-weight: 700;
 		text-align: left;
+		margin-right: 0.5em;
 	}
 
 	.experience_date {
