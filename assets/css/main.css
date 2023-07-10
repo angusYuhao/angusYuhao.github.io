@@ -366,9 +366,9 @@ input, select, textarea {
 	}
 
 	.experience_icon img {
-		height: 24px;
-		width: 24px;
-		border-radius: 8px;
+		height: 60px;
+		width: 60px;
+		border-radius: 10px;
 		margin-right: 16px;
 		padding: 10px;
 		transition: background-color 0.15s ease-in-out;
@@ -378,29 +378,38 @@ input, select, textarea {
 		background-color: rgba(144, 144, 144, 0.38);
 	}
 
+	.experience_title_line {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
 	.experience_title {
 		color: white;
 		text-decoration: none;
 		font-size: 16px;
 		font-weight: 700;
+		text-align: left;
 	}
 
 	.experience_date {
 		display: inline-block;
-		background: #252525;
+		/* background: #252525; */
 		font-weight: 700;
 		font-size: 12px;
 		color: #a0a0a0;
 		border-radius: 4px;
-		margin: 0 4px;
+		/* margin: 0 4px; */
 		padding: 6px;
 		padding-bottom: 4px;
 		line-height: 0.9em;
+		text-align: left;
 	}
 
 	.experience_description {
 		color: #a0a0a0;
 		line-height: 1.5em;
+		text-align: left;
 	}
 
 /* Row */
